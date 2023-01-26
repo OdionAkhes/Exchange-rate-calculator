@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #5fbaa7;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    color: #fff;
+    background: #5fbaa7;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.money-img {
+    width: 150px;
+}
+
+.currency {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+}
+
+.currency input {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    color: #5fbaa7;
+    font-size: 34px;
+    padding: 0 10px;
+}
